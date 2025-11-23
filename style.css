@@ -75,6 +75,12 @@ button{
     background:#1b4177
 
 }
+button:hover {
+    opacity: 0.8;
+    background-color: #f1f5f9;
+    color: #0f1a31;
+}
+
 .error{
     color:var(--danger);
     margin-top:8px;
@@ -82,9 +88,10 @@ button{
 .display-section{
     margin-top:20px;
 }
-.display-section{
-    margin-top:20px;
+section h2{
+    font-size: 1.3rem;
 }
+
 #table-wrap{
     background:var(--card);
     padding:12px;
@@ -94,6 +101,7 @@ button{
 table{
     width:100%;
     border-collapse:collapse;
+    overflow: hidden;
 }
 thead th{
     background:#f1f5f9;
@@ -104,6 +112,10 @@ thead th{
 tbody td{
     padding:10px;
     border-top:1px solid #f3f4f6;
+}
+td,th{
+        border-bottom: 1px solid #e5e7eb;
+
 }
 .actions{
     display:flex;
