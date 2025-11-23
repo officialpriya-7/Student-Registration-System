@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta>
+   <meta name="description" content="A simple student registration system with add/edit/update/delete and persistent storage"/>
     <title>Student Registration System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="form header">
+        <h1>Student Registration System</h1>
+    </header>
+          <main class="container">
+        <section class="form-section">
+            <h2>Fill Your Informaition</h2>
+            <form id="student-form" novalidate>
+                <div class="grid">
+                    <label for="Student Name">
+                        Student Name : <input id="name" name = "name" type="text" placeholder="Enter Your FullName" required/>
+                    </label>
+                    <label for="Student ID">
+                        Student ID : <input id="studentId" name="studentId" type="text" placeholder="Enter Your ID Number" required inputmode="numeric"/>
+                    </label>
+                    <label for="Email ID">
+                        Email ID : <input id="emailId" name="emailId" type="email" placeholder="email@example.com" required/>
+                    </label>
+                    <label for="Contact No.">
+                        Contact No. : <input id="contact" name="contact" type="tel" placeholder="Enter Your Phone No." required inputmode="numeric" maxlength="10"/>
+                    </label>
+                </div>
+                <div class="buttons">
+                    <button id="submit-btn" type="submit">Submit</button>
+                    <button id="reset-btn" type="reset">Reset</button>
+                </div>
+            </form>
+            <div id="form-error" class="error" aria-live="polite"></div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
