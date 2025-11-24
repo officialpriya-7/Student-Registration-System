@@ -17,16 +17,16 @@
             <form id="student-form" novalidate>
                 <div class="grid">
                     <label for="Student Name">
-                        Student Name : <input id="name" name = "name" type="text" placeholder="Enter Your FullName" required/>
+                    Student Name : <input id="name" class="textarea" name = "name" type="text" placeholder="Enter Your FullName" required/>
                     </label>
                     <label for="Student ID">
-                        Student ID : <input id="studentId" name="studentId" type="text" placeholder="Enter Your ID Number" required inputmode="numeric"/>
+                     Student ID : <input id="studentId" class="textarea" name="studentId" type="text" placeholder="Enter Your ID Number" required inputmode="numeric"/>
                     </label>
                     <label for="Email ID">
-                        Email ID : <input id="emailId" name="emailId" type="email" placeholder="email@example.com" required/>
+                    Email ID : <input id="emailId" class="textarea" name="emailId" type="email" placeholder="Email@example.com" required/>
                     </label>
                     <label for="Contact No.">
-                        Contact No. : <input id="contact" name="contact" type="tel" placeholder="Enter Your Phone No." required inputmode="numeric" maxlength="10"/>
+                    Contact No. : <input id="contact" class="textarea" name="contact" type="tel" placeholder="Enter Your Phone No." required inputmode="numeric" maxlength="10"/>
                     </label>
                 </div>
                 <div class="buttons">
@@ -47,9 +47,10 @@
                             <th>Student ID</th>
                             <th>Email ID</th>
                             <th>Contact No.</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
-                    <tbody id="student-tbady">
+                    <tbody id="student-tbody">
                         <!-- JS will populate rows here -->
 
                     </tbody>
@@ -59,7 +60,7 @@
     </main>
 
     <footer class="page-footer">
-        <small>@ Course Assignment: Student Registration System — Built with HTML, CSS & JavaScript</small>
+     <small>@ Course Assignment: Student Registration System — Built with HTML, CSS & JavaScript.</small>
     </footer>
     <script src="script.js"></script>
 </body>
