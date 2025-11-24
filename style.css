@@ -53,7 +53,7 @@ header h1 {
     text-decoration: underline;
     padding-top: 60px;
     font-size: 2.3rem;
-    text-align: center;       /* FIXED */
+    text-align: center;      
 
 }
 
@@ -196,9 +196,7 @@ td, th {
 
 } 
 
-/* =============================== */
 /* FOOTER */
-/* =============================== */
 .page-footer {
     text-align: center;
     color: var(--muted);
@@ -206,11 +204,8 @@ td, th {
     margin-top: auto;
 }
 
-/* =============================== */
 /* RESPONSIVE */
-/* =============================== */
 
-/* MOBILE */
 
 @media (max-width: 480px) {
     table {
@@ -261,12 +256,11 @@ td, th {
     }
 }
 
-/* TABLET */
 @media (min-width: 641px) and (max-width: 1024px) {
     section h2 { font-size: 1.6rem; }
 }
 
-/* DESKTOP */
+
 @media (min-width: 1025px) {
     thead th { font-size: 1.1rem; }
     tbody td { font-size: 1rem; }
