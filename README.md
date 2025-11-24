@@ -55,6 +55,6 @@ This project is for educational use as part of an assignment.
 ## Author
 Priya Modi 
 GitHub: https://github.com/officialpriya-7
-Email: piyushamodi@gmail.com
+
 
 
