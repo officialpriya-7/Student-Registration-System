@@ -62,8 +62,8 @@ function showStudents() {
                 <td>${stu.email}</td>
                 <td>${stu.contact}</td>
                 <td>
-                    <button  class="action-btn edit onclick="editStudent(${actions})">Edit</button>
-                    <button class="action-btn delete" onclick="deleteStudent(${actions})">Delete</button>
+                    <button  class ="action-btn edit" onclick="editStudent(${actions})">Edit</button>
+                    <button class ="action-btn delete" onclick="deleteStudent(${actions})">Delete</button>
                 </td>
             </tr>
         `;
